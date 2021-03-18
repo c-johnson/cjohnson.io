@@ -3,8 +3,9 @@
   <head>
     <style>
       .container {
-        max-width: 480px;
+        max-width: 800px;
         padding: 15px;
+        margin: 0 auto;
       }
 
       .mb200 {
@@ -19,15 +20,37 @@
 
     <title>Chris Johnson's web log</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
 
     <!-- email: inbox@cjohnson.io -->
   </head>
+  <!-- <body class="debug"> -->
   <body>
-    <div class="container">
-      <p>My name is Chris Johnson.. I'm a software specialist living in Kansas City.</p>
-      <p>I recently wrote a <a href="https://cjohnson.io/civics">series of essays</a> on the concept of <em>civics</em>; the art of practicing civility in the 21st century.</p>
-      <p>I'm available for work. I have significant experience in software development, design, devops, and management, with a specific focus on web applications.</p>
-      <p>If you're interested, please send an email to inquiry@cjohnson.io.</p>
+    <div class="container mt3">
+      <div class="flex items-end lh-solid mb4">
+        <div class="f1 avenir w50 mr4">Chris Johnson</div>
+        <div class="f5 baskerville" style="position: relative; bottom: 6px;">Software specialist, civics advocate, Kansas City native</div>
+      </div>
+
+      <div class="avenir">
+        <div class="fl w-70 mr4 measure">
+          <p class="mt0">My name is Chris Johnson.. I'm a software specialist living in Kansas City.</p>
+          <p>I recently wrote a <a href="https://cjohnson.io/civics">series of essays</a> on the concept of <em>civics</em>; the art of practicing civility in the 21st century.</p>
+          <p>I'm available for work. I have significant experience in software development, design, devops, and management, with a specific focus on web applications.</p>
+          <p>If you're interested, please send an email to inquiry@cjohnson.io.</p>
+          <p>:p</p>
+        </div>
+        <div class="fr w-30">
+          <div class="f5 mb2"><span class="b">email:</span> chris@cjohnson.io</div>
+          <div class="f5 b">links:</div>
+          <ul class="mb4 mt1 pa2 pl3">
+            <a href="#">Portfolio</a>
+          </ul>
+          <div class="f4 mb3">Stuff I like</div>
+          <div class="f5 mb2 b">Civics</div>
+          <a href="#">Rising (Youtube)</a>
+        </div>
+      </div>
     </div>
   </body>
 
