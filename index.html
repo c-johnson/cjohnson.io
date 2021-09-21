@@ -9,7 +9,7 @@
       }
 
       .selfie {
-          width: 40%;
+          width: 80px;
           border-radius: 100%;
           margin: 0 auto;
           display: block;
@@ -29,16 +29,34 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
 
+    <link rel="stylesheet" href="/styles/fonts.css"></link>
+    <link rel="stylesheet" href="/styles/index.css"></link>
+
     <!-- email: inbox@cjohnson.io -->
   </head>
   <!-- <body class="debug"> -->
   <body>
     <div class="container">
-      <img class="selfie" src="./img/selfie.jpg" />
-      <p>My name is Chris Johnson.. I'm a software specialist living in Kansas City.</p>
-      <p>I recently wrote a <a href="https://cjohnson.io/civics">series of essays</a> on the concept of <em>civics</em>; the art of practicing civility in the 21st century.</p>
-      <p>I'm available for work. I have significant experience in software development, design, devops, and management, with a specific focus on web applications.</p>
-      <p>If you're interested, please send an email to inquiry@cjohnson.io.</p>
+      <div class="header">
+        <img class="selfie" src="/assets/img/selfie2.jpg" />
+        <div class="navbar">
+          <span>About</span>
+          <span>Work</span>
+          <span>Art</span>
+          <span>Contact</span>
+        </div>
+      </div>
+
+      <div class="content">
+        <h3>Hello! I'm Chris Johnson.</h3>
+
+        <p>I'm a <a href="#">web developer</a>, aspiring <a href="#">political economist</a>, and an <a href="#">evangelical baptist</a> living in Kansas City, MO.</p>
+
+        <!-- <p>My name is Chris Johnson.. I'm a software specialist living in Kansas City.</p>
+        <p>I recently wrote a <a href="https://cjohnson.io/civics">series of essays</a> on the concept of <em>civics</em>; the art of practicing civility in the 21st century.</p>
+        <p>I'm available for work. I have significant experience in software development, design, devops, and management, with a specific focus on web applications.</p>
+        <p>If you're interested, please send an email to inquiry@cjohnson.io.</p> -->
+      </div>
     </div>
   </body>
 

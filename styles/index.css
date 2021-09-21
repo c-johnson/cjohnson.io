@@ -1,0 +1,33 @@
+.navbar {
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-size: 16px;
+
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0px auto;
+  padding: 20px 50px;
+
+  border-bottom: 0.5px solid #aaa;
+}
+
+.content {
+  width: 550px;
+  margin: 0 auto;
+
+  font-family: "EB Garamond";
+  font-size: 16px;
+}
+
+.content h3 {
+  font-size: 22px;
+  text-align: center;
+  font-family: "Open Sans";
+  margin: 40px 0;
+}
+
+.navbar span {
+  text-decoration: underline;
+}
