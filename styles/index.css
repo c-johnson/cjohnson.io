@@ -1,3 +1,24 @@
+a {
+  color: #000
+}
+
+.container {
+  max-width: 800px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.selfie {
+    width: 80px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.mb200 {
+  margin-bottom: 200px;
+}
+
 .navbar {
   font-family: "EB Garamond";
   font-weight: 400;
@@ -14,7 +35,7 @@
 }
 
 .content {
-  width: 550px;
+  width: 600px;
   margin: 0 auto;
 
   font-family: "EB Garamond";
@@ -28,6 +49,18 @@
   margin: 40px 0;
 }
 
-.navbar span {
-  text-decoration: underline;
+.marquee-spam {
+		/* color: #fff; */
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground{
+  0%		{ color: #10c018;}
+  25%		{ color: #1056c0;}
+  50%		{ color: #ef0a1a;}
+  75%		{ color: #254878;}
+  100%	        { color: #04a1d5;}
 }
