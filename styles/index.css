@@ -1,22 +1,27 @@
-a {
-  color: #000
-}
-
 .container {
   max-width: 800px;
   padding: 15px;
   margin: 0 auto;
 }
 
-.selfie {
-    width: 80px;
-    border-radius: 100%;
-    margin: 0 auto;
-    display: block;
+a, a:visited, a:active {
+  color: #074966;
+  font-weight: 400;
 }
 
-.mb200 {
-  margin-bottom: 200px;
+a.extra-info, a.extra-info:visited, a.extra-info:active {
+  color: #333;
+  font-weight: 400;
+}
+ 
+a.call-to-action, a.call-to-action:visited, a.call-to-action:active {
+  color: #A22204;
+  font-weight: 700;
+}
+
+a.explore-more, a.explore-more:visited, a.explore-more:active {
+  color: #539403;
+  font-weight: 700;
 }
 
 .navbar {
@@ -34,6 +39,22 @@ a {
   border-bottom: 0.5px solid #aaa;
 }
 
+.navbar a {
+  color: #000
+}
+
+.header .header-selfie {
+  width: 80px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.hero-text {
+  margin: 40px 0;
+  text-align: center;
+}
+
 .content {
   width: 600px;
   margin: 0 auto;
@@ -44,9 +65,15 @@ a {
 
 .content h3 {
   font-size: 22px;
-  text-align: center;
   font-family: "Open Sans";
-  margin: 40px 0;
+  margin: 0;
+}
+
+.content h4 {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin-top: 8px;
 }
 
 .marquee-spam {
@@ -55,6 +82,10 @@ a {
 		display: inline-block;
 		border-radius: 5px;
 		animation: blinkingBackground 2s infinite;
+}
+
+.mb200 {
+  margin-bottom: 200px;
 }
 
 @keyframes blinkingBackground{
